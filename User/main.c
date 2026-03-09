@@ -4,7 +4,6 @@
 
 int main(void)
 {
-	Delay_Init();
 	Timer_Init();
 	
 	while(1)
@@ -12,3 +11,4 @@ int main(void)
 		
 	}
 }
+
