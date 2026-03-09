@@ -67,7 +67,7 @@ Your project environment is now set up. You can begin your application developme
 1. 在 Keil5 左侧的 **Project** 窗口中，右键单击 `Target 1`
 2. 新建三个分组（Group），分别命名为 `Library`、`Startup`、`User`、`System`
 3. 右键单击每个新建的分组，选择 **Add Existing Files to Group...** 选项
-4. 根据你所使用的具体芯片型号，选用Startup文件中不同的startup_stm32f10x_xx.s文件，例如最常见的stm32f103c8t6芯片应选用startup_stm32f10x_md.s文件
+4. 根据你所使用的具体芯片型号，选用Startup文件中不同的`startup_stm32f10x_xx.s`文件，例如最常见的`stm32f103c8t6`芯片应选用`startup_stm32f10x_md.s`文件
 5. 将对应物理目录中的其余全部文件添加到相应的分组中
 
 ### 三、目标选项设置
